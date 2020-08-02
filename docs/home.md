@@ -1,6 +1,6 @@
 # CPT363 User Interface Design
 
-<sl-alert class="grey-background" type="info" open>
+<sl-alert class="alert-grey-background" type="info" open>
 
 ## What's Happening This Week
 
