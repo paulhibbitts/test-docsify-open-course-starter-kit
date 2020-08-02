@@ -5,8 +5,8 @@
 ## What's Happening This Week
 
 ### Important Reminders
-  * Journey Map assignment <sl-badge type="info">Jun 12 11:59pm PDT</sl-icon></sl-badge>
-  * Course Reflection Log assignment <sl-badge type="info">Aug 3rd 11:59pm PDT</sl-icon></sl-badge>
+  * [Journey Map](#) assignment <sl-badge type="info">Jun 12 11:59pm PDT</sl-icon></sl-badge>
+  * [Course Reflection Log](#) assignment <sl-badge type="info">Aug 3rd 11:59pm PDT</sl-icon></sl-badge>
 
 ### Required Readings & One-Minute Summaries
 
