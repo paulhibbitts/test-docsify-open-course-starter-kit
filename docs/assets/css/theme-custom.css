@@ -79,7 +79,7 @@ blockquote ul li:before {
 
 /* Style changes for Shoelace web components within Docsify Markdown content */
 
-.grey-background::part(base) {
+.alert-grey-background::part(base) {
    margin-top: 16px;
    background: #f6f7f6;
    border: 0px;
