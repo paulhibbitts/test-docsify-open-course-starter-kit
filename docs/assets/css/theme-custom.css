@@ -87,6 +87,7 @@ blockquote ul li:before {
 
 .markdown-section sl-alert figure, .markdown-section sl-alert p, .markdown-section sl-alert ol, .markdown-section sl-alert ul {
       margin: 0;
+      font-size: 16px;
 }
 
 }
