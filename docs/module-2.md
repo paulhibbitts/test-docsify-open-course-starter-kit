@@ -15,12 +15,15 @@
 
 <sl-card class="card-overview">
 
-  **Product Reaction Cards**  
-  The Microsoft Reaction Card, developed by Microsoft in 2002 by Joey Benedek and Trish Miner as the Desirability Toolkit, is a method used to check the emotional response and desirability of a design or product. This method is commonly used in the field of software design.
+**Product Reaction Cards**  
+The Microsoft Reaction Card, developed by Microsoft in 2002 by Joey Benedek and Trish Miner as the Desirability Toolkit, is a method used to check the emotional response and desirability of a design or product. This method is commonly used in the field of software design.
 
-  <div slot="footer">
-    <sl-button type="primary"><a href="https://elearn.uni-sofia.bg/pluginfile.php/55103/mod_resource/content/0/Resources/Systems_Evaluation/DesirabilityToolkit.doc">Download the Desirability Toolkit</a></sl-button>
-  </div>
+<div slot="footer">
+
+[Download the Desirability Toolkit](https://elearn.uni-sofia.bg/pluginfile.php/55103/mod_resource/content/0/Resources/Systems_Evaluation/DesirabilityToolkit.doc ':class=button')
+
+</div>
+
 </sl-card>
 
 ## Assignments
