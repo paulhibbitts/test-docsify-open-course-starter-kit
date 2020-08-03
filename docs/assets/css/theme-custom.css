@@ -107,3 +107,8 @@ blockquote ul li:before {
   margin: 0;
   border: 0;
 }
+
+.markdown-section sl-card sl-button a:link, .markdown-section sl-card sl-button a:visited, .markdown-section sl-card sl-button a:hover, .markdown-section sl-card sl-button a:active {
+  color: white;
+  text-decoration: none;
+}
