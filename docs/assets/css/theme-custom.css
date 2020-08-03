@@ -86,29 +86,16 @@ blockquote ul li:before {
  }
 
 .markdown-section sl-alert figure, .markdown-section sl-alert p, .markdown-section sl-alert ol, .markdown-section sl-alert ul {
-      margin: 0;
-      font-size: 16px;
+  font-size: 16px;
 }
 
-}
-.markdown-section h1:first-child, .markdown-section h2:first-child, .markdown-section h3:first-child, .markdown-section h4:first-child, .markdown-section h5:first-child, .markdown-section h6:first-child {
-    margin-top: 0;
-}
-
-.markdown-section sl-alert h2  {
-      border: 0;
-      margin: 0;
-      padding: 0;
+.markdown-section sl-alert h1, .markdown-section sl-alert h2, .markdown-section sl-alert h3, .markdown-section sl-alert h4, .markdown-section sl-alert h5, .markdown-section sl-alert h6, .markdown-section sl-alert figure, .markdown-section sl-alert p {
+ 	margin: 0px 0px 6px;
+  padding: 0;
+ 	border: 0;
 }
 
-.markdown-section sl-alert h3 {
-      margin-top: 10px;
-}
-
-.markdown-section sl-card figure, .markdown-section sl-card p, .markdown-section sl-card ol, .markdown-section sl-card ul {
-      margin: 0;
-}
-
-.markdown-section sl-alert .alert .alert--open {
-    border-top-color: #FFFFFF;
+.markdown-section sl-alert ol, .markdown-section sl-alert ul {
+ 	margin: 0px 0px 6px;
+ 	border: 0;
 }
