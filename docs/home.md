@@ -2,15 +2,10 @@
 
 <sl-alert class="alert-grey-background" type="info" open>
 
-## What's Happening This Week
+## Important Reminders
 
-### Important Reminders
   * [Journey Map](#) assignment <sl-badge type="info">Jun 12 11:59pm PDT</sl-icon></sl-badge>
   * [Course Reflection Log](#) assignment <sl-badge type="info">Aug 3rd 11:59pm PDT</sl-icon></sl-badge>
-
-### Required Readings & One-Minute Summaries
-
-No weekly readings or one-minute summaries this week.
 
 </sl-alert>
 
@@ -21,5 +16,9 @@ No weekly readings or one-minute summaries this week.
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 [Required Reading Quiz](https://sso.canvaslms.com/courses/1924881/quizzes/4876153 ':class=button')
+
+### Slides to be Discussed
+
+[Usability Testing](https://www.google.ca/slides/about/)
 
 Did you attend this class? [Share your one-minute summary](#) before midnight, the day of class.
