@@ -99,3 +99,9 @@ blockquote ul li:before {
  	margin: 0px 0px 6px;
  	border: 0;
 }
+
+.markdown-section sl-card figure, .markdown-section sl-card p, .markdown-section sl-card ol, .markdown-section sl-card ul {
+  font-size: 16px;
+  margin: 0;
+  border: 0;
+}
