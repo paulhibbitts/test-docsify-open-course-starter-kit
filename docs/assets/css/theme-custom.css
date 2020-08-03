@@ -1,19 +1,20 @@
 :root {
-    --base-font-size                        : 16px;
-    --link-color                            : #0A75BD;
-    --navbar-root-color                     : #0A75BD;
-    --navbar-root-color--active             : #0A75BD;
-    --navbar-root-color--hover              : #0A75BD;
-    --sidebar-name-color                    : #0A75BD;
-    --sidebar-nav-link-color--active        : #4D4D4D;
-    --sidebar-nav-link-font-weight--active  : bold;
-    --pagination-title-color                : #0B87DA;
+  --base-font-size: 16px;
+  --link-color: #0A75BD;
+  --navbar-root-color: #0A75BD;
+  --navbar-root-color--active: #0A75BD;
+  --navbar-root-color--hover: #0A75BD;
+  --sidebar-name-color: #0A75BD;
+  --sidebar-nav-link-color--active: #4D4D4D;
+  --sidebar-nav-link-font-weight--active: bold;
+  --pagination-title-color: #0B87DA;
 }
 
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
-  height: 0; overflow: hidden;
+  height: 0;
+  overflow: hidden;
   max-width: 100%;
 }
 
@@ -25,7 +26,7 @@
   height: 93%;
 }
 
-.responsive-wrap iframe{
+.responsive-wrap iframe {
   max-width: 100%;
 }
 
@@ -46,19 +47,21 @@
 }
 
 .markdown-section .banner-image {
-  width: 100%; /* width of container */
-  height: 200px; /* height of container */
+  width: 100%;
+  /* width of container */
+  height: 200px;
+  /* height of container */
   object-fit: cover;
   object-position: 50% 50%;
 }
 
 .pagination-item, .pagination-item-title {
-    opacity: .9!important;
+  opacity: .9 !important;
 }
 
 .pagination-item:not(:last-child) a .pagination-item-label, .pagination-item:not(:last-child) a .pagination-item-subtitle, .pagination-item:not(:last-child) a .pagination-item-title {
-    opacity: .9!important;
-    transition: all .2s;
+  opacity: .9 !important;
+  transition: all .2s;
 }
 
 blockquote ul {
@@ -78,26 +81,25 @@ blockquote ul li:before {
 }
 
 /* Style changes for Shoelace web components within Docsify Markdown content */
-
 .alert-grey-background::part(base) {
-   margin-top: 16px;
-   background: #f6f7f6;
-   border: 0px;
- }
+  margin-top: 16px;
+  background: #f6f7f6;
+  border: 0px;
+}
 
 .markdown-section sl-alert figure, .markdown-section sl-alert p, .markdown-section sl-alert ol, .markdown-section sl-alert ul {
   font-size: 16px;
 }
 
 .markdown-section sl-alert h1, .markdown-section sl-alert h2, .markdown-section sl-alert h3, .markdown-section sl-alert h4, .markdown-section sl-alert h5, .markdown-section sl-alert h6, .markdown-section sl-alert figure, .markdown-section sl-alert p {
- 	margin: 0px 0px 6px;
+  margin: 0px 0px 6px;
   padding: 0;
- 	border: 0;
+  border: 0;
 }
 
 .markdown-section sl-alert ol, .markdown-section sl-alert ul {
- 	margin: 0px 0px 6px;
- 	border: 0;
+  margin: 0px 0px 6px;
+  border: 0;
 }
 
 .markdown-section sl-card figure, .markdown-section sl-card p, .markdown-section sl-card ol, .markdown-section sl-card ul {
