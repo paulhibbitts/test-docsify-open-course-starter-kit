@@ -109,6 +109,7 @@ blockquote ul li:before {
 }
 
 .markdown-section sl-card sl-button a:link, .markdown-section sl-card sl-button a:visited, .markdown-section sl-card sl-button a:hover, .markdown-section sl-card sl-button a:active {
+  font-size: 16px;
   color: white;
   text-decoration: none;
 }
