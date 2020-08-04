@@ -102,6 +102,15 @@ blockquote ul li:before {
   border: 0;
 }
 
+.markdown-section sl-alert ul {
+  list-style: none;
+}
+
+.markdown-section sl-alert ul li:before {
+  content: '\2713';
+  padding-right: .5em;
+}
+
 .markdown-section sl-card figure, .markdown-section sl-card p, .markdown-section sl-card ol, .markdown-section sl-card ul {
   font-size: 16px;
   margin: 0;
