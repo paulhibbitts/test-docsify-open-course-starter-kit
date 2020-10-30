@@ -8,7 +8,7 @@
 * [Course Reflection Log](#) assignment due Aug 3rd
 
 ### Required Readings & One-Minute Summaries
-* [The Skeptic’s Guide To Low-Fidelity Prototyping](https://canvas.instructure.com/courses/1924881/discussion_topics/8677012) due Jun 8th  
+* [The Skeptic’s Guide To Low-Fidelity Prototyping](https://canvas.instructure.com/courses/1924881/discussion_topics/8677012) due Jun 3rd
 
 [Required Reading Quiz](https://sso.canvaslms.com/courses/1924881/quizzes/4876153 ':class=button')
 
