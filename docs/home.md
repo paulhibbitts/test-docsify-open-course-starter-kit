@@ -2,8 +2,6 @@
 
 <div class="reminders">
 
-## What's Happening This Week 💫
-
 ### Important Reminders
 * [Journey Map](#) assignment due Jun 12th
 * [Course Reflection Log](#) assignment due Aug 3rd
