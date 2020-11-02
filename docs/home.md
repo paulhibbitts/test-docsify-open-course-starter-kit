@@ -1,8 +1,8 @@
 # CPT363 User Interface Design
 
 > ### Important Reminders
-> * [Journey Map](#) assignment due Jun 12th
-> * [Course Reflection Log](#) assignment due Aug 3rd
+> * [Journey Map](#) assignment [Tue Jun 12th 11:59pm PDT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CPT-363+Journey+Map+Due+Date&iso=20180612T2359&p1=256 ':class=badge')
+> * [Course Reflection Log](#) assignment [Fri Aug 3rd 11:59pm PDT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=CPT-363+Course+Reflection+Due+Date&iso=20180803T2359&p1=256 ':class=badge')
 
 ## Jun 6th Class Preparations
 
