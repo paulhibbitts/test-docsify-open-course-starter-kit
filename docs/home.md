@@ -8,7 +8,7 @@
 > ### Required Reading
 > * [The Skeptic’s Guide To Low-Fidelity Prototyping](https://www.smashingmagazine.com/2014/10/the-skeptics-guide-to-low-fidelity-prototyping/)
 >
-> [Required Reading Quiz](https://sso.canvaslms.com/courses/1924881/quizzes/4876153 ':class=button')
+> [Required Reading Quiz due Jun 4th](https://sso.canvaslms.com/courses/1924881/quizzes/4876153 ':class=button')
 
 ## Looking Ahead to Next Week
 
