@@ -11,7 +11,7 @@
 
 **:fas fa-calendar fa-fw: Week 3**  
 :fas fa-keyboard fa-fw: [Journey Map](https://sso.canvaslms.com/courses/1924881/assignments/14377756) assignment due Jun 12th  
-:fas fa-folder fa-fw: [Informed Consent Materials](https://sso.canvaslms.com/courses/1924881/files/folder/Handouts/Informed%20Consent)  
+:fas fa-folder fa-fw: [Informed Consent Materials](https://sso.canvaslms.com/courses/1924881/files/folder/Downloads/Informed%20Consent)  
 :fas fa-desktop fa-fw: [Strategic UX Design](https://docs.google.com/presentation/d/e/2PACX-1vRnnRFelgw1ksq_p8Eryg3dnyLCRRLPf5fBgdwdv9p-tCIwcxqWvzDGrGbjxGHL7HqEJVpmV26ntk3a/pub?start=false&loop=false&delayms=3000)   
 :fas fa-book fa-fw: [What is a User Journey Map?](https://www.aytech.ca/blog/user-journey-map/)  
 
