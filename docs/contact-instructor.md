@@ -7,3 +7,6 @@ somename@somewhere.edu
 Virtual office hours chat:  
 Mondays 12:00-1:30pm  
 Fridays 12:00-1:00pm  
+
+Suggestion or complaint?  
+Send me your [anonymous course feedback](#)!
