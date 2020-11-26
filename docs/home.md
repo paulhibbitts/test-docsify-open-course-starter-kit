@@ -12,6 +12,6 @@
 
 ## Looking Ahead to Next Week
 
-### Required Reading
+### Week 5 Required Reading
 <a class="embedly-card" data-card-controls="0" data-card-align="left" href="http://www.uxbooth.com/articles/the-art-of-guerrilla-usability-testing/">The Art of Guerrilla Usability Testing | UX Booth</a>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
