@@ -1,7 +1,10 @@
 :root {
   --base-font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
   --base-font-size: 18px;
-  --heading-h3-font-weight: 600;
+  --heading-h1-font-size: 2.1rem;
+  --heading-h2-font-size: 1.7rem;
+  --heading-h3-font-size: 1.3rem;
+  --heading-h4-font-weight: 600;
   --link-color: #0A75BD;
   --navbar-root-color: #0A75BD;
   --navbar-root-color--active: #0A75BD;
