@@ -4,7 +4,7 @@
 Some Name  
 somename@somewhere.edu  
 
-Virtual office hours chat:  
+Online office hours:  
 Mondays 12:00-1:30pm  
 Fridays 12:00-1:00pm  
 
