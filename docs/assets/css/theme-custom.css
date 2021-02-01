@@ -1,9 +1,9 @@
 :root {
   --base-font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
   --base-font-size: 1.1rem;
-  --heading-h1-font-size: 1.85rem;
-  --heading-h2-font-size: 1.6rem;
-  --heading-h3-font-size: 1.4rem;
+  --heading-h1-font-size: 1.9rem;
+  --heading-h2-font-size: 1.7rem;
+  --heading-h3-font-size: 1.5rem;
   --heading-h4-font-size: 1.3rem;
   --heading-h5-font-size: 1.2rem;
   --heading-h6-font-size: 1.1rem;
@@ -21,6 +21,13 @@
   --sidebar-nav-link-color--active: #4D4D4D;
   --sidebar-nav-link-font-weight--active: bold;
   --pagination-title-color: #0B87DA;
+  --heading-margin: 0;
+  --heading-padding: 0;
+  --heading-h2-border-style: none;
+  --heading-h2-margin: 0rem;
+  --heading-h2-padding: 0rem;
+  --heading-h3-margin: 0rem;
+  --heading-h3-padding: 0rem;
 }
 
 .video-container {
@@ -110,6 +117,11 @@
   padding: 0;
 }
 
+.markdown-section blockquote h4 {
+  margin: 0;
+  padding: 0;
+}
+
 .markdown-section blockquote ul {
   list-style: none;
   margin-top: 0;
@@ -125,17 +137,6 @@
 .markdown-section blockquote ul li:before {
   content: '\2713';
   padding-right: 5px;
-}
-
-.markdown-section h2 {
-  border-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.markdown-section h3 {
-  margin: 0;
-  padding: 0;
 }
 
 .reminders {
@@ -166,6 +167,11 @@
   padding: 0;
 }
 
+.reminders h4 {
+  margin: 0;
+  padding: 0;
+}
+
 .reminders ul {
   list-style: none;
   margin-top: 0;
@@ -181,4 +187,20 @@
 .reminders ul li:before {
   content: '\2713';
   padding-right: 5px;
+}
+
+.markdown-section h2 {
+  border-style: none;
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.markdown-section h3 {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.markdown-section h4 {
+  margin: 0!important;
+  padding: 0!important;
 }
