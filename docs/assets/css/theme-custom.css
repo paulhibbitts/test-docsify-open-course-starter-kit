@@ -74,6 +74,10 @@
   transition: all .2s;
 }
 
+.markdown-section blockquote {
+    margin: 1em 0;
+}
+
 .markdown-section blockquote ul {
   list-style: none;
   margin-top: 0;
