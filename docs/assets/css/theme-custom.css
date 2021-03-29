@@ -151,6 +151,7 @@ body.close {
 .sidebar + .content {
     margin-left: unset;
     margin-right: var(--sidebar-width);
+    transition: right 250ms ease;
 }
 
 .app-nav {
