@@ -148,6 +148,11 @@ body.close {
     transform: - translateX($sidebar-width) ;
 }
 
+.sidebar + .content {
+    margin-left: unset;
+    margin-right: var(--sidebar-width);
+}
+
 .app-nav {
     margin: 25px 60px 0px 0px;
     right: unset;
