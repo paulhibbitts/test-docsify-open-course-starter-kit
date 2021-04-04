@@ -24,20 +24,28 @@
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
     <style>
       :root {
-        --base-font-family: "Lato","Helvetica Neue",Arial,sans-serif;
-        --base-font-size: 1rem;
+        --base-font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+        --base-font-size: 1.1rem;
 
         --heading-h2-border-style: none;
-        --heading-h2-margin: -.4rem 0rem -.6rem 0rem;
-        --heading-h2-padding: -.4rem 0rem -.6rem 0rem;
-        --heading-h3-margin: -.4rem 0rem -.2rem 0rem;
-        --heading-h3-padding: -.4rem 0rem -.2rem 0rem;
+        --heading-h1-margin: -1.2rem 0rem -1.2rem 0rem;
+        --heading-h1-padding: -1.2rem 0rem -1.2rem 0rem;
+        --heading-h2-margin: -1rem 0rem -1rem 0rem;
+        --heading-h2-padding: -1rem 0rem -1rem 0rem;
+        --heading-h3-margin: -.4rem 0rem -.4rem 0rem;
+        --heading-h3-padding: -.4rem 0rem -.4rem 0rem;
         --heading-h4-margin: 0rem 0rem -.2rem 0rem;
         --heading-h4-padding: 0rem 0rem -.2rem 0rem;
+        --heading-h1-font-size: 1.9rem;
+        --heading-h2-font-size: 1.7rem;
+        --heading-h3-font-size: 1.4rem;
+        --heading-h4-font-size: 1.3rem;
+        --heading-h5-font-size: 1.2rem;
+        --heading-h6-font-size: 1.1rem;
         --heading-h1-font-weight: 400;
         --heading-h2-font-weight: 400;
         --heading-h3-font-weight: 400;
@@ -56,7 +64,7 @@
         --link-text-decoration--hover: underline;
 
         --pagination-title-color: #0B87DA;
-        
+
       }
     </style>
 
@@ -65,13 +73,13 @@
 <body>
     <div id="app"></div>
     <script>
-        function getParameterByName(name, url = window.location.href) {
-            name = name.replace(/[\[\]]/g, '\\$&');
-            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-                results = regex.exec(url);
-            if (!results) return null;
-            if (!results[2]) return '';
-            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+      function getParameterByName(name, url = window.location.href) {
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
         }
         // Docsify
         window.$docsify = {
@@ -81,7 +89,7 @@
             homepage   : 'home.md',
             loadSidebar: 'sidebar.md',
             loadNavbar : !(getParameterByName('embedded') === 'true'),
-            externalLinkTarget: '_top',
+            externalLinkTarget: '_blank',
 
             // SIDEBAR NAVIGATION
             // -----------------------------------------------------------------
@@ -108,20 +116,22 @@
                     .replace('raw.githubusercontent.com', 'github.com')
                     .replace(/\/master/, '/blob/master')
                 } else {
-                  url = 'https://github.com/paulhibbitts/test-docsify-open-course-starter-kit/tree/master/docs/' + vm.route.file
+                  url = 'https://github.com/hibbitts-design/docsify-open-course-starter-kit/tree/master/docs/' + vm.route.file
                 }
                 var editHtml = '[:memo: Edit this Page on GitHub](' + url + ')\n'
 
                 // Adjust GitHub displayable image URL format to also work in Docsify
                 html = html.replace(new RegExp("../assets/images", 'ig'), "assets/images");
 
-                return html
-                  + '\n\n----\n\n'
-                  + editHtml
-                })
-              }
-            ],
-        };
+                if (!(getParameterByName('hidegithublink') === 'true')) {
+                  return html + '\n\n----\n\n' + editHtml
+                } else {
+                  return html
+                }
+              })
+            }
+          ]
+        }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
 
