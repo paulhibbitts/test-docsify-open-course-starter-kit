@@ -62,7 +62,7 @@ To only display Docsify page content, add the following to a Docsify page URL:
 
 `?embedded=true`
 
-For example, https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/module-1 would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/?embedded=true would only display page content (i.e. no sidebar or optional navbar is shown).
+For example, https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/module-1 would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/module-1?embedded=true would only display page content (i.e. no sidebar or optional navbar is shown).
 
 To optionally hide the 'Edit this Page on GitHub' link, use the following:
 
