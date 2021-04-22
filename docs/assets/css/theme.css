@@ -1,3 +1,7 @@
+.app-nav:not(:empty) ~ main .markdown-section {
+    padding-top: 4.5rem;
+}
+
 .pagination-item, .pagination-item-title {
   opacity: .9 !important;
 }
@@ -5,10 +9,6 @@
 .pagination-item:not(:last-child) a .pagination-item-label, .pagination-item:not(:last-child) a .pagination-item-subtitle, .pagination-item:not(:last-child) a .pagination-item-title {
   opacity: .9 !important;
   transition: all .2s;
-}
-
-.app-nav:not(:empty) ~ main .markdown-section {
-    padding-top: 4.5rem;
 }
 
 .markdown-section {
