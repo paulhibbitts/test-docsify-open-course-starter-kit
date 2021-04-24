@@ -75,6 +75,11 @@ For example, https://hibbitts-design.github.io/docsify-open-course-starter-kit/#
 [![Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran](youtube.png)](https://www.youtube.com/watch?v=TV88lp7egMw)  
 _Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran_
 
+⛔️ Offline Access
+---
+You can run this site offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, and then in the root folder of this repo, type `docsify serve docs`. The website will be served on port 3000 on your localhost: `localhost:3000`.
+
+
 📚 Learn More about Docsify
 ---
 [Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)  
