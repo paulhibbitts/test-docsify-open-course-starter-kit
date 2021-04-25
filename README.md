@@ -28,19 +28,23 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 
 **Configure Linked GitHub Repository**  
 
-1. Edit the file `index.html` in the 'docs' folder of repository
-2. Find the current GitHub repository URL https://github.com/hibbitts-design/docsify-open-course-starter-kit/tree/main/docs and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/main/docs
-3. Commit your changes
+1. Go to the file index.html in the `docs` folder of your repository
+2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
+3. Find the current GitHub repository URL https://github.com/hibbitts-design/docsify-open-course-starter-kit/tree/main/docs and replace it with your own repository URL, for example https://github.com/YourGitHubUsername/YourRepositoryName/tree/main/docs
+4. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 
 [Learn more about Docsify's configuration options.](https://docsify.js.org/#/configuration?id=configuration)
 
-⌨️ Editing your Docsify Site Pages
----  
-
 **Editing Your Docsify Site Pages on GitHub**
-1. Go to the GitHub Docsify site page (in the `docs` folder) you want to edit
-2. Tap the **Pencil Icon** (top left-hand toolbar area) and then make the edits you want
+
+1. Go to the Docsify Markdown (.md) page in the `docs` folder of your repository you want to edit
+2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
 3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
+
+[Learn more about pages in Docsify.](https://docsify.js.org/#/more-pages)
+
+💻 Locally Editing your Docsify Site Pages
+---  
 
 **Editing Your Docsify Site Pages on Your Desktop**
 1. Tap **Clone** on your repository page
