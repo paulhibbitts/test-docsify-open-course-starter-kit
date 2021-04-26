@@ -43,7 +43,7 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 
 [Learn more about pages in Docsify.](https://docsify.js.org/#/more-pages)
 
-💻 Locally Editing your Docsify Site Pages
+⌨️ Locally Editing your Docsify Site Pages
 ---  
 
 **Editing Your Docsify Site Pages on Your Desktop**
