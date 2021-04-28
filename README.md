@@ -100,10 +100,15 @@ _Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvar
 ---
 You can run this site locally by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, and then in the root folder of this repo, type `docsify serve docs`. The website will be served on port 3000 on your localhost: `localhost:3000`.
 
-📚 Learn More about Docsify
+📗 Learn More about Docsify
 ---
 [Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)  
 [Docsify Basics by MichaelCurrin](https://michaelcurrin.github.io/docsify-js-tutorial/#/?id=docsify-basics)  
+
+📘 Learn More about Markdown
+---
+[Markdown Cheat Sheet](https://warpedvisions.org/projects/markdown-cheat-sheet/)  
+[Markdown Guide](https://www.markdownguide.org/)  
 
 🙇‍Credits and Special Thanks
 ---
