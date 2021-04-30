@@ -222,3 +222,7 @@
     width: 100%;
   }
 }
+
+.markdown-section hr {
+    margin: 1em 0;
+}
