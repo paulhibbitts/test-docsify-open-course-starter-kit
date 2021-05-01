@@ -33,7 +33,7 @@
 
 .markdown-section blockquote ul li:before {
   content: '\2B25';
-  padding-right: 5px;
+  padding-right: 2px;
 }
 
 .markdown-section .reminders {
@@ -67,7 +67,7 @@
 
 .markdown-section .reminders ul li:before {
   content: '\2B25';
-  padding-right: 5px;
+  padding-right: 2px;
 }
 
 .markdown-section .button {
