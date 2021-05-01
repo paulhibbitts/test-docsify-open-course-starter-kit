@@ -33,6 +33,7 @@
 
 .markdown-section blockquote ul li:before {
   content: '\2B25';
+  color: #6c757d;
   padding-right: 2px;
 }
 
@@ -67,6 +68,7 @@
 
 .markdown-section .reminders ul li:before {
   content: '\2B25';
+  color: #6c757d;
   padding-right: 2px;
 }
 
