@@ -22,9 +22,7 @@
 .markdown-section blockquote ul {
   list-style: none;
   margin-top: .6em;
-  padding-top: 0;
-  margin-bottom: .5em;
-  padding-bottom: 0;
+  margin-bottom: -.3em;
 }
 
 .markdown-section blockquote ul li:before {
@@ -54,9 +52,7 @@
 .markdown-section .alert ul {
   list-style: none;
   margin-top: .6em;
-  padding-top: 0;
-  margin-bottom: .5em;
-  padding-bottom: 0;
+  margin-bottom: -.3em;
 }
 
 .markdown-section .alert ul li:before {
