@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Docsify Discord Chat" />
 </a>
 
-> This is a starter kit to create an open [Docsify](https://docsify.js.org) course site. Global navigation elements can be hidden for seamlessly embedding pages (i.e. into an LMS). Includes a pre-configured "Edit this Page on GitHub" link.
+> This is a starter kit to create an open [Docsify](https://docsify.js.org) course site. Global navigation elements can be hidden for seamlessly embedding pages (i.e. into an LMS). Includes a pre-configured "Edit this Page" link.
 
 📸 Docsify Open Course Screenshot
 ---
@@ -76,11 +76,11 @@ To only display Docsify page content, add the following to a Docsify page URL:
 
 For example, https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/resources would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/resources?embedded=true would only display page content (i.e. no sidebar or optional navbar is shown).
 
-To optionally hide the 'Edit this Page on GitHub' link, use the following:
+To optionally hide the 'Edit this Page' link, use the following:
 
 `?embedded=true&hidegitlink=true`
 
-For example, https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/resources would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/resources?embedded=true&hidegitlink=true would only display page content (i.e. no sidebar or optional navbar is shown) and also hide the 'Edit this Page on GitHub' link.
+For example, https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/resources would display a standard Docsify page while https://hibbitts-design.github.io/docsify-open-course-starter-kit/#/resources?embedded=true&hidegitlink=true would only display page content (i.e. no sidebar or optional navbar is shown) and also hide the 'Edit this Page' link.
 
 🌐 Using an LMS to Host a Docsify Open Course Site
 ---
