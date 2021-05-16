@@ -36,8 +36,6 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 4. And you're done! (view your new site using the provided URL on the **Pages** tab - it can take up to 10 minutes for your site to be initially available)
 ![ Docsify Open Course Starter Kit - Install Page 4](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/oc-install-4.png)
 
-[View these instructions with accompanying screenshots.](https://github.com/hibbitts-design/docsify-open-course-starter-kit/wiki/Installation-and-Deployment-Guide)
-
 **Editing Your Docsify Site Pages on GitHub**
 
 1. Go to the Docsify Markdown (.md) page in the `docs` folder of your repository you want to edit
