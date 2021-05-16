@@ -47,13 +47,13 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 📝 Activating the “Edit this Page” Link
 ---   
 
-1. At the top-level of your GitHub Repository, copy the URL and then tap on the `docs` folder
+1. At the top-level of your GitHub Repository copy the URL
 ![ Docsify Open Publishing Starter Kit - “Edit this Page” Link 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-1.png)
 
-2. Tap on the `docs` folder
+2. Tap on the **docs** folder
 ![ Docsify Open Publishing Starter Kit - “Edit this Page” Link 2](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-2.png)
 
-2. Tap on the file `index.html`
+2. Tap on the **index.html** file
 ![ Docsify Open Publishing Starter Kit - “Edit this Page” Link 3](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-3.png)
 
 3. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
