@@ -125,7 +125,8 @@ For example, here is a [Docsify Open Course Site hosted within a Canvas course](
 [Docsify Basics by MichaelCurrin](https://michaelcurrin.github.io/docsify-js-tutorial/#/?id=docsify-basics)  
 
 **Docsify Themable**  
-https://jhildenbiddle.github.io/docsify-themeable/#/
+[Docsify Themeable Documentation](https://jhildenbiddle.github.io/docsify-themeable/#/introduction)   
+[Docsify Themeable GitHub](https://github.com/jhildenbiddle/docsify-themeable)   
 
 **Markdown**  
 [Markdown Cheat Sheet](https://warpedvisions.org/projects/markdown-cheat-sheet/)  
