@@ -21,6 +21,7 @@
 
 .markdown-section blockquote ul {
   list-style: none;
+  margin-top: .8em;
 }
 
 .markdown-section blockquote ul li {
@@ -51,17 +52,12 @@
 }
 
 .markdown-section ul {
-    list-style: square outside none;
+  list-style: square outside none;
 }
 
 .markdown-section .alert ul {
   list-style: none;
   margin-top: .8em;
-  margin-bottom: -.3em;
-}
-
-.markdown-section .alert ul {
-  list-style: none;
 }
 
 .markdown-section .alert ul li {
