@@ -119,7 +119,7 @@
       homepage: 'home.md',
       loadSidebar: 'sidebar.md',
       loadNavbar: !(getURLParameterByName('embedded') === 'true'),
-      externalLinkTarget: '_top',
+      externalLinkTarget: (returnByURLParameterByName('embedded','_top','_blank')),
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
