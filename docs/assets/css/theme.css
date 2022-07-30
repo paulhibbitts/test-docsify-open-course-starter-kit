@@ -309,3 +309,11 @@ body .docsify-pagination-container {
    }
 
 }
+
+@media (prefers-color-scheme: dark) {
+
+  .markdown-section .button {
+    color: #222222;
+  }
+
+}
