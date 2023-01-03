@@ -89,7 +89,7 @@ You can also clone (i.e download) a copy of your repository to your computer and
 ![ Docsify Open Course Page Embedded into the Canvas LMS](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-canvas.png)
 _Figure 2. Docsify Open Course Page Embedded into the Canvas LMS. Explore an example Canvas LMS course using Docsify Open Course pages for content at [https://canvas.sfu.ca/courses/44038/](https://canvas.sfu.ca/courses/44038)_
 
-The optional ‘embedded’ (all lowercase) URL parameter hides a site’s sidebar for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams or being displayed in an existing or new Browser tab. The parameter 'standalone' is supported as an alias for `embedded`.
+The optional ‘embedded’ (all lowercase) URL parameter hides a site’s sidebar and navbar for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams or being displayed in an existing or new Browser tab. The parameter 'standalone' is supported as an alias for `embedded`.
 To only display Docsify page content, add the following to a Docsify page URL:
 
 `?embedded=true`
@@ -99,6 +99,16 @@ https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resourc
 
 Example Docsify page displaying only page content (i.e., no sidebar is shown):  
 https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
+
+To optionally override the hiding of the navbar when displaying only page content, use the following:
+
+`?embedded=true&navbar=true`
+
+Example Docsify page displaying only page content:  
+https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
+
+Example Docsify page displaying only page content with the navbar included:  
+https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&navbar=true  
 
 To optionally show a page Table of Contents (based on included Headers), use the following:
 
