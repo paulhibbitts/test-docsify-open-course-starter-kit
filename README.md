@@ -107,7 +107,7 @@ To optionally override the hiding of the navbar when displaying only page conten
 Example Docsify page displaying only page content:  
 https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
 
-Example Docsify page displaying only page content with the navbar included:  
+Example Docsify page displaying only page content with the navbar still displayed:  
 https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&navbar=true  
 
 To optionally show a page Table of Contents (based on included Headers), use the following:
