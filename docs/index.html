@@ -184,7 +184,6 @@
       loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
       loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar ||false),
       externalLinkTarget: (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
-      // Set loadFooter to true to display contents of file '_footer.md' as footer
       loadFooter: (getURLParameterByName('footer') || footer || false),
 
       // SIDEBAR NAVIGATION
@@ -282,7 +281,7 @@
             html = html.replace(new RegExp("../assets/images", 'ig'), "assets/images");
 
             if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
-              return html + '<br />' + '\n\n' + editHtml
+              return html + '<br />' + '\n' + editHtml
             } else {
               return html
             }
