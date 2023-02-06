@@ -246,12 +246,9 @@
                if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)  {
                   // dark mode
                   // console.log("dark");
-                  enabledarkmode = getURLParameterByName('dark-mode', null, null, window.location.href, true);
-                  if (enabledarkmode || darkmode) {
-                    embeds.forEach(embed => {
-                      embed.setAttribute('data-card-theme', 'dark');
-                    });
-                  }
+                  embeds.forEach(embed => {
+                    embed.setAttribute('data-card-theme', 'dark');
+                  });
                   } else {
                   // light mode
                   // console.log("light");
@@ -262,9 +259,7 @@
               window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
                 // console.log(`changed to ${e.matches ? "dark" : "light"} mode`);
                 // console.log(e.matches);            
-                if (enabledarkmode || darkmode) {
-                  document.location.reload();
-                }
+                document.location.reload();
               });
 
             }
