@@ -172,7 +172,7 @@ Example of custom.css file:
 */
 ```
 
-It is also possible for dual CSS styling to be configured, with CSS applied to when viewing the site (with overriding custom CSS included in a `STYLE` tag in the `sidebar.md` file) and then alternative CSS settings within the `custom.css` file applied to when viewing standalone pages (i.e. `?embedded=true&`)
+It is also possible for dual CSS styling to be configured, with CSS applied to when viewing the site (with overriding custom CSS included in a `STYLE` tag in the `sidebar.md` file) and then other CSS settings within the `custom.css` file applied to when viewing standalone pages (i.e. `?embedded=true&`)
 
 Example of Sidebar with included CSS:
 
