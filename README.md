@@ -158,6 +158,34 @@ In addition to using URL parameters when embedding Docsify page content into oth
 
 Please note a page must have a series of Headings (#, ##, ###) for the Table of Contents to be displayed correctly.
 
+⚙️ Visual Customization
+---
+
+A Docsify Open Course Starter Kit site can be visually customized using CSS within the `custom.css` file located in the folder `docs/assets/css`. Using this file, [Docsify Themeable CSS settings](https://jhildenbiddle.github.io/docsify-themeable/#/customization?id=base) can also be configured, as seen in the examples provided in the default `custom.css` file.
+
+Example of custom.css file:  
+
+```css
+:root {
+    --link-color: #0F6CBF!important;
+}
+*/
+```
+
+It is also possible for dual CSS styling to be configured, with CSS applied to when viewing the site (with overriding custom CSS included in a `STYLE` tag in the `sidebar.md` file) and then alternative CSS settings within the `custom.css` file applied to when viewing standalone pages (i.e. `?embedded=true&`)
+
+Example of Sidebar with included CSS:
+
+```css
+<style>
+  :root {
+    --link-color: #CC0633;
+    --link-text-decoration: none;
+    --link-text-decoration--hover: underline;
+  }
+</style>
+```
+
 🛠 Using an LMS to Host a Docsify Open Course Site
 ---
 
