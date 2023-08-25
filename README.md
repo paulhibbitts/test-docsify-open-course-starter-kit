@@ -345,7 +345,7 @@ Automatically added to all iFrames with the source domains 'youtube.com' or 'doc
 <div class="video-container-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ"></iframe></div>
 ```
 
-⚙️ Visual Customization
+🎨 Visual Customization
 ---
 
 A Docsify Open Course Starter Kit site can be visually customized using CSS within the `custom.css` file located in the folder `docs/assets/css`. Using this file, [Docsify Themeable CSS settings](https://jhildenbiddle.github.io/docsify-themeable/#/customization?id=base) can also be configured, as seen in the examples provided in the default `custom.css` file.
