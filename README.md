@@ -348,7 +348,7 @@ Automatically added to all iFrames with the source domains 'youtube.com' or 'doc
 🎨 Visual Customization
 ---
 
-A Docsify Open Course Starter Kit site can be visually customized using CSS within the `custom.css` file located in the folder `docs/assets/css`. Using this file custom Markdown CSS classes can be defined.
+A Docsify Open Course Starter Kit site can be visually customized using CSS within the `custom.css` file located in the folder `docs/assets/css`. Using this file new Markdown CSS classes can be defined.
 
 CSS:  
 ```css
