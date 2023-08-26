@@ -348,18 +348,7 @@ Automatically added to all iFrames with the source domains 'youtube.com' or 'doc
 🎨 Visual Customization
 ---
 
-A Docsify Open Course Starter Kit site can be visually customized using CSS within the `custom.css` file located in the folder `docs/assets/css`. Using this file, [Docsify Themeable CSS settings](https://jhildenbiddle.github.io/docsify-themeable/#/customization?id=base) can also be configured, as seen in the examples provided in the default `custom.css` file.
-
-Example of custom.css file:  
-
-```css
-:root {
-    --link-color: #0F6CBF!important;
-}
-*/
-```
-
-Custom Markdown CSS classes can also be defined, for example:
+A Docsify Open Course Starter Kit site can be visually customized using CSS within the `custom.css` file located in the folder `docs/assets/css`. Using this file custom Markdown CSS classes can be defined.
 
 CSS:  
 ```css
@@ -385,11 +374,19 @@ Markdown:
 [Required Reading Quiz due Jun 4th](https://canvas.sfu.ca/courses/44038/quizzes/166553 ':class=mybutton')
 ```
 
+[Docsify Themeable CSS settings](https://jhildenbiddle.github.io/docsify-themeable/#/customization?id=base) can also be configured, as seen in the examples provided in the default `custom.css` file.
+
+CSS:  
+```css
+:root {
+    --link-color: #0F6CBF!important;
+}
+*/
+```
 
 It is also possible for dual CSS styling to be configured, with CSS applied to when viewing the site (with overriding custom CSS included in a `STYLE` tag in the `_sidebar.md` file) and then other CSS settings within the `custom.css` file applied to when viewing standalone pages (i.e. `?embedded=true&`)
 
-Example of CSS included within Sidebar file (`_sidebar.md`):
-
+CSS in Sidebar file (`_sidebar.md`):  
 ```css
 <style>
   :root {
