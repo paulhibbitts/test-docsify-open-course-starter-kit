@@ -38,11 +38,6 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 
 Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.js.org/#/deploy?id=gitlab-pages)!
 
-⚠️ Troubleshooting
----
-_Site not displaying on GitHub Pages_  
-The most likely cause of not seeing your Docsify site on GitHub Pages is that the 'docs' folder is not selected as the source folder. Go to **Settings** of your repository, tap the **Pages** tab (on the left-hand side), choose **main branch**, then **docs folder** and finally tap the **Save** button.  
-
 ✏️ Editing Your Docsify Site Pages on GitHub
 ---  
 
@@ -172,6 +167,11 @@ Please note a page must have a series of Headings (#, ##, ###) for the Table of 
 2. Locate the line `<title>Docsify Open Course Starter Kit</title>` and change the text between the title tags to be displayed as the site name on the Browser tab
 3. Locate the line `name: 'Docsify Open Course Starter Kit',` and change the text between the quotes to be displayed as the site name at the top of the Docsify Sidebar
 4. Save the `index.html` file and reload site.
+
+⚠️ Troubleshooting
+---
+_Site not displaying on GitHub Pages_  
+The most likely cause of not seeing your Docsify site on GitHub Pages is that the 'docs' folder is not selected as the source folder. Go to **Settings** of your repository, tap the **Pages** tab (on the left-hand side), choose **main branch**, then **docs folder** and finally tap the **Save** button.  
 
 🛠 Using an LMS to Host a Docsify Open Course Site
 ---
