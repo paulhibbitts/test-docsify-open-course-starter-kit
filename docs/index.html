@@ -177,6 +177,8 @@
       subMaxLevel: 3,
       hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || standalone),
 
+      skipLink: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
+
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
       pagination: {
@@ -329,8 +331,8 @@
               document.body.appendChild(editCSS);
             }
 
-            // Update all iframes with source domains 'youtube.com', 'youtube-nocookie.com' or 'docs.google.com' to include the default responsive CSS Markdown class `video-container-16by9`
-            const allIframes = Array.from(document.querySelectorAll('iframe[src*="youtube.com"], iframe[src*="youtube-nocookie.com"], iframe[src*="docs.google.com"]'));
+            // Update all iframes with source domains 'youtube.com', 'youtube-nocookie.com', 'docs.google.com' or 'onedrive.live.com' to include the default responsive CSS Markdown class `video-container-16by9`
+            const allIframes = Array.from(document.querySelectorAll('iframe[src*="youtube.com"], iframe[src*="youtube-nocookie.com"], iframe[src*="docs.google.com"], iframe[src*="onedrive.live.com"]'));
 
             // Filter out iframes that are not already wrapped with a div including the classes 'video-container-16by9' and 'video-container-4by3'
             const targetIframes = allIframes.filter(function(iframe) {
@@ -359,7 +361,8 @@
   </script>
 
   <!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script> -->
-  <script src="https://docsify-preview-mqvotzlmj-docsifyjs.vercel.app/lib/docsify.js"></script>
+  <!-- <script src="https://docsify-preview-mqvotzlmj-docsifyjs.vercel.app/lib/docsify.js"></script> -->
+  <script src="https://docsify-preview-git-494-skip-link-docsifyjs.vercel.app/lib/docsify.min.js"></script>
 
   <!-- Adjust Page Margins When Standalone or Embedded -->
   <script>
