@@ -281,14 +281,6 @@
               });
 
             }
-            
-            /* Support Browser-level image lazy loading of images */
-            htmlElement.innerHTML = htmlElement.innerHTML.replace(/<img(.*?)>/g, function (match, p1) {
-              if (p1.indexOf('loading=') === -1) {
-                return match.replace('>', ' loading="lazy">');
-              }
-              return match;
-            });
 
             next(htmlElement.innerHTML);
 
@@ -398,6 +390,9 @@
 
   <!-- Pagination Plugin -->
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- Docsify Browser-level Image Lazy Loading Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-loading/lib/index.min.js"></script>
 
   <!-- Table of Contents Plugin -->
   <script>
