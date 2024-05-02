@@ -10,13 +10,22 @@
   <link rel="icon" href="assets/favicon/favicon.png">
 
   <!-- Themeable Simple theme -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
+
+  <!-- Docsify Themeable "develop" branch preview files -->
+  <link rel="stylesheet" href="https://docsify-themeable-preview.vercel.app/dist/css/theme-simple.css">
 
   <!-- Themeable Simple light + dark theme (uncomment to use, and comment out the above loading of Simple theme) -->
+  <!-- <link rel="stylesheet" media="(prefers-color-scheme: light)"
+    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
+  <!-- <link rel="stylesheet" media="(prefers-color-scheme: dark)"
+    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"> -->
+
+  <!-- Docsify Themeable "develop" branch preview files -->
   <link rel="stylesheet" media="(prefers-color-scheme: light)"
-    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+    href="https://docsify-themeable-preview.vercel.app/dist/css/theme-simple.css">
   <link rel="stylesheet" media="(prefers-color-scheme: dark)"
-    href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+    href="https://docsify-themeable-preview.vercel.app/dist/css/theme-simple-dark.css">
 
   <link rel="stylesheet" href="assets/css/theme.css">
   <link rel="stylesheet" href="assets/css/custom.css">
@@ -178,7 +187,7 @@
       subMaxLevel: 3,
       hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || standalone),
 
-      skipLink: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
+      skipLink: (!(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('toc'))) || standalone),
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
@@ -361,8 +370,9 @@
   </script>
 
   <!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script> -->
-  <!-- <script src="https://docsify-preview-mqvotzlmj-docsifyjs.vercel.app/lib/docsify.js"></script> -->
-  <script src="https://docsify-preview-git-494-skip-link-docsifyjs.vercel.app/lib/docsify.min.js"></script>
+
+  <!-- Docsify "develop" branch preview files -->
+  <script src="https://docsify-preview.vercel.app/lib/docsify.min.js"></script>
 
   <!-- Adjust Page Margins When Standalone or Embedded -->
   <script>
