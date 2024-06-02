@@ -303,7 +303,8 @@
             } else {
               url = gitLinkRepoURL + '/blob/main/docs/' + vm.route.file
             }
-            var editHtml = '[:memo:' + editThisPageLinkText + '](' + url + ')\n'
+
+            var editHtml = '[:memo:' + editThisPageLinkText + '](' + url + ' ":class=align-items-vertically")\n'
 
             if ((!(getURLParameterByName('hidegitlink'))) && (!!gitLinkRepoURL)) {
               return html + '<br />' + '\n\n' + editHtml
@@ -372,7 +373,7 @@
   <!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script> -->
 
   <!-- Docsify "develop" branch preview files -->
-  <script src="https://docsify-preview.vercel.app/lib/docsify.min.js"></script>
+  <script src="https://docsify-preview-kz17kuu5n-docsifyjs.vercel.app/dist/docsify.min.js"></script>
 
   <!-- Adjust Page Margins When Standalone or Embedded -->
   <script>
