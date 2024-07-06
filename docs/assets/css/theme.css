@@ -206,12 +206,14 @@
   min-width: 0;
   word-wrap: break-word;
   background-clip: border-box;
-  border: 1px solid #CCCCCC;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
   border-radius: .15rem;
 }
 
 .markdown-section .accordion details {
-  padding: .75rem 1.25rem;
+  padding: .0 1.25rem 1rem 1.25rem; /* DOCSIFY v5 */
   margin-bottom: 0;
   border-bottom: 1px solid #CCCCCC;
 }
@@ -219,7 +221,7 @@
 .markdown-section summary {
   cursor: pointer;
   color: var(--link-color);
-  margin-bottom:-8px;
+  /* margin-bottom:-8px; DOCSIFY v5 */
   padding: 0;
   
   h1, h2, h3 {
@@ -451,27 +453,39 @@
 }
 
 .markdown-section h1 {
+  font-size: 1.65rem;
   line-height: 1.75rem;
+  margin: 1rem 0rem -0.5rem 0rem;
 }
 
 .markdown-section h2 {
+  font-size: 1.45rem;
   line-height: 1.55rem;
+  margin: 1rem 0rem -.5rem 0rem;
 }
 
 .markdown-section .h3 {
+  font-size: 1.25rem;
   line-height: 1.35rem;
+  margin: 1rem 0rem -.5rem 0rem;
 }
 
 .markdown-section h4 {
+  font-size: 1.2rem;
   line-height: 1.3rem;
+  margin: 1rem 0rem -.5rem 0rem;
 }
 
 .markdown-section h5 {
+  font-size: 1.15rem;
   line-height: 1.25rem;
+  margin: 1rem 0rem -.5rem 0rem;
 }
 
 .markdown-section h6 {
+  font-size: 1.1rem;
   line-height: 1.2rem;
+  margin: 1rem 0rem 0rem 0rem;
 }
 
 .markdown-section .alert hr, .markdown-section blockquote hr {
