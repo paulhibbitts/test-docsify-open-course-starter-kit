@@ -60,7 +60,7 @@
 
 .markdown-section .button {
   cursor: pointer;
-  color: var(--base-background-color);
+  color: var(--color-mono-min); /* DOCSIFY v5 */
   height: auto;
   display: inline-block;
   padding: 10px;
@@ -73,7 +73,7 @@
 
 .markdown-section a.button {
   cursor: pointer;
-  color: var(--base-background-color);
+  color: var(--color-mono-min); /* DOCSIFY v5 */
   text-decoration: none !important;
 }
 
@@ -99,7 +99,7 @@
 
 .markdown-section .button-rounded {
   cursor: pointer;
-  color: var(--base-background-color);
+  color: var(--color-mono-min); /* DOCSIFY v5 */
   height: auto;
   display: inline-block;
   padding: 10px min(20px, 5%) 10px min(20px, 5%);
@@ -112,7 +112,7 @@
 
 .markdown-section a.button-rounded {
   cursor: pointer;
-  color: var(--base-background-color);
+  color: var(--color-mono-min); /* DOCSIFY v5 */
   text-decoration: none !important;
 }
 
