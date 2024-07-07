@@ -138,17 +138,17 @@
 
 .markdown-section .navpill {
   cursor: pointer;
-  color: var(--base-color);
+  color: var(--color-mono-max); /* DOCSIFY v5 */
   height: auto;
   display: inline-block;
-  border: 1px solid var(--base-color);
+  border: 1px solid var(--color-mono-max); /* DOCSIFY v5 */
   border-radius: 4rem;
   padding: 4px 14px 4px 14px;
   margin-bottom: 4px;
   margin-right: 6px;
   font-size: .8rem;
   line-height: .9rem;
-  background-color: --base-background-color;
+  background-color: var(--color-mono-min); /* DOCSIFY v5 */
   font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
   font-weight: bold;
   text-decoration: none;
@@ -156,14 +156,14 @@
 
 .markdown-section a.navpill {
   cursor: pointer;
-  color: var(--base-color)!important;
-  border: 1px solid var(--base-color);
+  color: var(--color-mono-max); /* DOCSIFY v5 */
+  border: 1px solid var(--color-mono-max); /* DOCSIFY v5 */
   text-decoration: none !important;
 }
 
 .markdown-section .badge {
-  color: var(--badge-text-color, var(--base-background-color)); /* Default text color */
-  background-color: var(--badge-bg-color, color-mix(in srgb, var(--base-color) 70%, transparent)); /* Default background */
+  color: var(--badge-text-color, var(--color-mono-min)); /* DOCSIFY v5 */
+  background-color: var(--badge-bg-color, color-mix(in srgb, var(--color-mono-max) 70%, transparent)); /* DOCSIFY v5 */
 
   display: inline-block;
   padding: .25em .4em .25em .4em;
@@ -181,7 +181,7 @@
 }
 
 .markdown-section .badge a {
-  color: var(--badge-text-color, var(--base-background-color))!important; /* Default text color */
+  color: var(--badge-text-color, var(--color-mono-min))!important; /* Default text color */
   text-decoration: none !important;
 }
 
