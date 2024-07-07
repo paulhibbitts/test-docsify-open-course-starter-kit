@@ -461,7 +461,8 @@
 .markdown-section h2 {
   font-size: 1.45rem;
   line-height: 1.55rem;
-  margin: 1rem 0rem -.5rem 0rem;
+  margin: 1rem 0rem -1.2rem 0rem; /* DOCSIFY v5 */
+  border-style: none; /* DOCSIFY v5 */
 }
 
 .markdown-section .h3 {
