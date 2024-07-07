@@ -63,7 +63,7 @@ aside.nav.nothing {
 
 .page_toc p.title {
   margin: 0px 0 0px 9px;
-  padding-top: 15px;
+  padding-top: 42px;
   padding-bottom: 5px;
   font-weight: 400;
   font-size: 1.2em;
@@ -101,7 +101,7 @@ aside.nav.nothing {
 @media screen and (max-width: 900px) {
   .page_toc {
     position: relative;
-    top: -20px;
+    top: -42px;
     padding: 0 0 0 40px; /* DOCSIFY v5 */
     border: none;
     border-bottom: 1px solid #ddd;
