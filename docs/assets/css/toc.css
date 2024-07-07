@@ -76,7 +76,7 @@ aside.nav.nothing {
   list-style-type: none;
   margin-top: 0px;
   padding-left: 10px;
-  color: var(--base-color, black);
+  color: var(--color-mono-max, black); /* DOCSIFY v5 */
   text-decoration: none;
   font-weight: 400;
   line-height: 1.2em;
@@ -88,7 +88,7 @@ aside.nav.nothing {
 }
 
 .page_toc ul a {
-  color: var(--base-color, black);
+  color: var(--color-mono-max, black); /* DOCSIFY v5 */
   text-decoration: none;
   font-weight: 400;
   line-height: 1.2em;
