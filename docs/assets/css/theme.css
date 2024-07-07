@@ -26,16 +26,16 @@
   overflow: visible;
   margin: 1em 0;
   padding: 1em;
-  border-width: var(--blockquote-border-width, 0);
-  border-style: var(--blockquote-border-style);
-  border-color: var(--blockquote-border-color);
-  border-radius: var(--blockquote-border-radius);
-  background: var(--blockquote-background);
-  color: var(--blockquote-color);
-  font-family: var(--blockquote-font-family);
-  font-size: var(--blockquote-font-size);
-  font-style: var(--blockquote-font-style);
-  font-weight: var(--blockquote-font-weight);
+  /* border-width: var(--blockquote-border-width, 0); DOCSIFY v5 */
+  /* border-style: var(--blockquote-border-style); DOCSIFY v5 */
+  /* border-color: var(--blockquote-border-color); DOCSIFY v5 */
+  /* border-radius: var(--blockquote-border-radius); DOCSIFY v5 */
+  background: var(--color-mono-1); /* DOCSIFY v5 */
+  /* color: var(--blockquote-color); DOCSIFY v5 */
+  /* font-family: var(--blockquote-font-family); DOCSIFY v5 */
+  /* font-size: var(--blockquote-font-size); DOCSIFY v5 */
+  /* font-style: var(--blockquote-font-style); DOCSIFY v5 */
+  /* font-weight: var(--blockquote-font-weight); DOCSIFY v5 */
   quotes: "“""”""‘""’";
 }
 
