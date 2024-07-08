@@ -17,14 +17,14 @@
   justify-content: center;
 }
 .markdown-section {
-  flex: 1 1 0%;
-  margin: 0 48px;
+  /*   flex: 1 1 0%; */
+  margin-left: 47px /* DOCSIFY v5 */
 }
 .nav {
-  width: var(--toc-width, 280px);
-  min-width: 200px;
-  align-self: flex-start;
-  flex: 0 0 auto;
+  width: var(--toc-width, 440px);
+  min-width: 340px;
+  /*   align-self: flex-start;
+  flex: 0 0 auto; */
 }
 aside.nav.nothing {
   width: 0;
