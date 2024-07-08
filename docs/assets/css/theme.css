@@ -1,5 +1,5 @@
 .app-nav:not(:empty)~main .markdown-section {
-  padding-top: 5.0rem;
+  padding-top: 1.0rem; /* DOCSIFY v5 */
 }
 
 .sidebar-nav a, .sidebar nav a {
