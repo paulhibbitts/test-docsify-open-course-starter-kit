@@ -386,15 +386,6 @@
   <!-- Docsify "develop" branch preview files -->
   <script src="https://docsify-preview-rcdfg1f00-docsifyjs.vercel.app/dist/docsify.min.js"></script>
 
-  <!-- Adjust Page Margins When Standalone or Embedded -->
-  <script>
-    if (getURLParameterByName(['standalone', 'embedded']) || standalone) {
-      var editCSS = document.createElement('style')
-      editCSS.innerHTML = ".markdown-section {padding: 1rem 14px;}";
-      document.body.appendChild(editCSS);
-    }
-  </script>
-
   <!-- Customizable Theme-->
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 

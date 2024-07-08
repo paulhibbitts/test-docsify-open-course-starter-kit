@@ -19,7 +19,7 @@
 }
 
 .markdown-section {
-  padding: 1rem 40px;
+  /* padding: 1rem 40px; DOCSIFY v5 */
 }
 
 .markdown-section .alert, .markdown-section blockquote {
