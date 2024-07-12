@@ -224,11 +224,13 @@
   color: var(--link-color);
   /* margin-bottom:-8px; DOCSIFY v5 */
   padding: 0;
-  
-  h1, h2, h3 {
-    margin: 0;
-    display: inline-block;
-  }
+}
+
+.markdown-section summary h1,
+.markdown-section summary h2,
+.markdown-section summary h3 {
+  margin: 0;
+  display: inline-block;
 }
 
 .markdown-section code {
@@ -264,7 +266,10 @@
   max-width: 100%;
 }
 
-.video-container-16by9 iframe, .video-container-4by3 iframe, .embed-container object, .embed-container embed {
+.video-container-16by9 iframe,
+.video-container-4by3 iframe,
+.embed-container object,
+.embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -611,7 +616,6 @@ body .docsify-pagination-container {
     font-size: 1rem;
     line-height: 1.05rem;
   }
-
 }
 
 /* Dark mode colours for use with Simple light + dark theme (uncomment to use) */
