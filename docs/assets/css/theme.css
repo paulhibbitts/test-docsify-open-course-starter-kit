@@ -533,6 +533,10 @@ body .app-nav {
   margin-right: -10px;
 }
 
+body .app-nav a {
+  text-decoration: none;
+}
+
 body .docsify-pagination-container {
   display: flex;
   flex-wrap: wrap;
