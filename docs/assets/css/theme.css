@@ -2,6 +2,10 @@
   padding-top: 1.0rem; /* DOCSIFY v5 */
 }
 
+.sidebar a.app-name-link {
+  line-height: 1.8rem;
+}
+
 .sidebar-nav a, .sidebar nav a {
   overflow: visible;
   white-space: break-spaces;
