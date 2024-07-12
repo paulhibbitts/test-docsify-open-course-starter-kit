@@ -171,7 +171,7 @@
 }
 
 .markdown-section .badge a {
-  color: var(--badge-text-color, var(--color-mono-min))!important; /* Default text color */
+  color: var(--badge-text-color, var(--color-mono-min))!important; /* DOCSIFY v5 */
   text-decoration: none !important;
 }
 
@@ -450,40 +450,40 @@
 }
 
 .markdown-section h1 {
-  font-size: 1.65rem;
+  font-size: 1.65rem; /* DOCSIFY v5 */
   line-height: 1.75rem;
-  margin: 1rem 0rem -0.5rem 0rem;
+  margin: 1rem 0rem -0.5rem 0rem; /* DOCSIFY v5 */
 }
 
 .markdown-section h2 {
-  font-size: 1.45rem;
+  font-size: 1.45rem; /* DOCSIFY v5 */
   line-height: 1.55rem;
   margin: 1rem 0rem -1.2rem 0rem; /* DOCSIFY v5 */
   border-style: none; /* DOCSIFY v5 */
 }
 
 .markdown-section h3 {
-  font-size: 1.25rem;
+  font-size: 1.25rem; /* DOCSIFY v5 */
   line-height: 1.35rem;
-  margin: 1rem 0rem -.5rem 0rem;
+  margin: 1rem 0rem -.5rem 0rem; /* DOCSIFY v5 */
 }
 
 .markdown-section h4 {
-  font-size: 1.2rem;
+  font-size: 1.2rem; /* DOCSIFY v5 */
   line-height: 1.3rem;
-  margin: 1rem 0rem -.5rem 0rem;
+  margin: 1rem 0rem -.5rem 0rem; /* DOCSIFY v5 */
 }
 
 .markdown-section h5 {
-  font-size: 1.15rem;
+  font-size: 1.15rem; /* DOCSIFY v5 */
   line-height: 1.25rem;
-  margin: 1rem 0rem -.5rem 0rem;
+  margin: 1rem 0rem -.5rem 0rem; /* DOCSIFY v5 */
 }
 
 .markdown-section h6 {
-  font-size: 1.1rem;
+  font-size: 1.1rem; /* DOCSIFY v5 */
   line-height: 1.2rem;
-  margin: 1rem 0rem 0rem 0rem;
+  margin: 1rem 0rem 0rem 0rem; /* DOCSIFY v5 */
 }
 
 .markdown-section .alert hr, .markdown-section blockquote hr {
@@ -540,10 +540,6 @@ body .docsify-pagination-container {
   overflow: hidden;
   margin: 3em 0 1em;
   border-top: 0px solid rgba(0, 0, 0, .07);
-}
-
-.progress {
-  background-color: var(--blockquote-border-color);
 }
 
 @media only screen and (max-width: 480px) {
