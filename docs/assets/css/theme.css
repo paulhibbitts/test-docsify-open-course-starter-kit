@@ -9,12 +9,8 @@
   line-height: 1.4em; /* DOCSIFY v5 */
 }
 
-.pagination-item, .pagination-item-title {
-  opacity: .9 !important;
-}
-
 .pagination-item:not(:last-child) a .pagination-item-label, .pagination-item:not(:last-child) a .pagination-item-subtitle, .pagination-item:not(:last-child) a .pagination-item-title {
-  opacity: .9 !important;
+  opacity: 1 !important;
   transition: all .2s;
 }
 
