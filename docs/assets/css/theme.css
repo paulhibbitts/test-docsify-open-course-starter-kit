@@ -619,5 +619,8 @@ body .docsify-pagination-container {
 
   :root {
 
+    --theme-color: #0685D7!important;
+    --link-color: #0685D7!important;
+
   }
 }
