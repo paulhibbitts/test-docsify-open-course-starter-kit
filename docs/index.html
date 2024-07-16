@@ -9,21 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="assets/favicon/favicon.png">
 
-  <!-- Docsify v5 Core Theme (required) -->
-  <link rel="stylesheet" href="https://docsify-preview-lt9a1hgxq-docsifyjs.vercel.app/dist/themes/core.min.css">
+  <!-- Docsify v5 Core Theme Light -->
+  <link rel="stylesheet" href="https://docsify-preview-4i67t178j-docsifyjs.vercel.app/dist/themes/core-light.min.css" />
 
-  <!-- Docsify v5 Core Dark / Dark Mode Only (add-on) -->
-  <link rel="stylesheet" href="https://docsify-preview-lt9a1hgxq-docsifyjs.vercel.app/dist/themes/addons/core-dark.min.css" media="(prefers-color-scheme: dark)" />
-  
-  <!-- Sidebar Chevrons Left (add-on) -->
-  <!-- <link rel="stylesheet" href="https://docsify-preview-lt9a1hgxq-docsifyjs.vercel.app/dist/themes/addons/sidebar-chevrons-left.min.css" /> -->
-  <!-- Sidebar Chevrons Right (add-on) -->
-  <link rel="stylesheet" href="https://docsify-preview-lt9a1hgxq-docsifyjs.vercel.app/dist/themes/addons/sidebar-chevrons-right.min.css" />
-
-  <!-- Sidebar Group Underline (add-on) -->
-  <!-- <link rel="stylesheet" href="https://docsify-preview-lt9a1hgxq-docsifyjs.vercel.app/dist/themes/addons/sidebar-group-underline.min.css" /> -->
-  <!-- Sidebar Group Box (add-on) -->
-  <link rel="stylesheet" href="https://docsify-preview-lt9a1hgxq-docsifyjs.vercel.app/dist/themes/addons/sidebar-group-box.min.css" />
+  <!-- Core Theme (Auto) -->
+  <!-- <link rel="stylesheet" href="https://docsify-preview-4i67t178j-docsifyjs.vercel.app/dist/themes/core.min.css" /> -->
 
   <link rel="stylesheet" href="assets/css/theme.css">
   <link rel="stylesheet" href="assets/css/custom.css">
@@ -48,7 +38,7 @@
       --line-height: 1.4; /*DOCSIFY v5*/
       --font-size: 18px; /*DOCSIFY v5*/
 
-      --max-width: 960px; /*DOCSIFY v5*/
+      --content-max-width: 960px; /*DOCSIFY v5*/
 
       --heading-font-weight: 400;
 
@@ -67,7 +57,7 @@
 
 </head>
 
-<body>
+<body class="sidebar-chevron-right sidebar-group-box">
   <div id="app"></div>
   <script>
     // Enter the URL of your own GitHub Repository in between the two quotes below
@@ -339,7 +329,7 @@
   <script>
     if ((getURLParameterByName(['standalone', 'embedded']) || standalone)) {
       const root_theme = document.querySelector(':root');
-      root_theme.style.setProperty('--_markdown-margin-inline', '10px');
+      root_theme.style.setProperty('--content-margin-inline', '10px');
     }
   </script>
   
