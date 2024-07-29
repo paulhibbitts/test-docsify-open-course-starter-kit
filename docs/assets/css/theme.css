@@ -1,8 +1,10 @@
+/*
 body {
-  -webkit-font-smoothing: antialiased; /* For WebKit browsers */
-  -moz-osx-font-smoothing: grayscale; /* For Firefox on macOS */
-  font-smooth: always; /* Standard property, limited support */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
 }
+*/
 
 .app-nav:not(:empty)~main .markdown-section {
   padding-top: 1.0rem; /* DOCSIFY v5 */
