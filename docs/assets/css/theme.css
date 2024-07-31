@@ -526,22 +526,22 @@ body {
 
 .markdown-section .alert h1, .markdown-section blockquote h1 {
   font-size: 1.45rem;
-  line-height: 1.8rem;
+  line-height: 1.85rem;
 }
 
 .markdown-section .alert h2, .markdown-section blockquote h2 {
   font-size: 1.35rem;
-  line-height: 1.55rem;
+  line-height: 1.6rem;
 }
 
 .markdown-section .alert h3, .markdown-section blockquote h3 {
   font-size: 1.2rem;
-  line-height: 1.4rem;
+  line-height: 1.45rem;
 }
 
 .markdown-section .alert h4, .markdown-section blockquote h4 {
   font-size: 1.15rem;
-  line-height: 1.30rem;
+  line-height: 1.35rem;
 }
 
 .markdown-section .alert h5, .markdown-section blockquote h5 {
