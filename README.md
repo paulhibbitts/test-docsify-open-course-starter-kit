@@ -24,7 +24,7 @@ _Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.g
 
 **Installation and Deployment**
 
-1.  Sign in to [GitHub](https://github.com), or create an account if you don’t already have one
+1.  Sign in to [GitHub](https://github.com) if you have not already done so
 
 2. Tap **Use this template** on the source repository (upper-right green button) and then choose **Create a new repository**
 ![ Docsify Open Course Starter Kit - Install Page 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-install-1.png)
