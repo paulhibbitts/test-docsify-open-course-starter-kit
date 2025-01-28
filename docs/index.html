@@ -264,18 +264,18 @@
 
             const embeds = Array.from(htmlElement.querySelectorAll('.embedly-card'))
             if (!(embeds.length === 0)) {
-              if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                // dark mode
-                // console.log("dark");
-                embeds.forEach(embed => {
-                  embed.setAttribute('data-card-theme', 'dark');
-                });
-              } else {
-                // light mode
-                // console.log("light");
-                embeds.forEach(embed => {
-                  embed.setAttribute('data-card-theme', 'light');
-                });
+               if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)  {
+                  // dark mode
+                  // console.log("dark");
+                  embeds.forEach(embed => {
+                    embed.setAttribute('data-card-theme', 'dark');
+                  });
+                  } else {
+                  // light mode
+                  // console.log("light");
+                  embeds.forEach(embed => {
+                    embed.setAttribute('data-card-theme', 'light');
+                  });
               }
               window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
                 // console.log(`changed to ${e.matches ? "dark" : "light"} mode`);
@@ -444,6 +444,9 @@
 
   <!-- Pagination Plugin -->
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- Docsify Browser-level Image Lazy Loading Plugin -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-loading/lib/index.min.js"></script> -->
 
   <!-- Image Grid Plugin -->
   <script src="assets/js/docsify-img-grid.js"></script>
