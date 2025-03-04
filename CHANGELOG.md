@@ -4,13 +4,14 @@
 ### XX/XX/2025
 
 **New:**
-* Support for image grid plugin, with customizations (with thanks and appreciation to @gllmAR)
+* Support for image grid plugin, including customizations (with thanks and appreciation to @gllmAR)
 * Include zoom image plugin (not enabled by default)
 * Use of Docsify and Docsify Themeable preview build assets for access to upcoming Docsify accessibility enhancements authored by @jhildenbiddle (with thanks and appreciation to John and tested extensively in Docsify-This)
 
 **Improved:**
 * Updated ReadMe
 * Updated example custom CSS for Moodle LMS
+* Updated to latest stable Docsify 4.x preview build (including Marked 4.2.12)
 * Support horizontal scrolling in code blocks
 * Adjusted bottom margin for summary elements
 * Match Docsify-This CSS with Docsify Starter Kits CSS
