@@ -27,6 +27,22 @@
 
 # Changelog
 
+## [v1.3.2](https://github.com/hibbitts-design/docsify-open-course-starter-kit/releases/tag/v1.3.2)
+### 04/09/2025
+
+**Bugfix:**
+* Set margin instead of padding for images contained in columns
+
+## [v1.3.1](https://github.com/hibbitts-design/docsify-open-course-starter-kit/releases/tag/v1.3.1)
+### 03/04/2025
+
+**Improved:**
+* Various minor enhancements to Search plugin
+* Adjusted default behaviour of image grid to add needed whitespace (padding) instead of cropping when source images are of different sizes (thanks to a helpful discussion with @davidmalawey)
+
+**Bugfix:**
+* Fixed incorrect theme CSS with regards to image scaling (with thanks and appreciation to @harlows for the PR)
+
 ## [v1.3.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit/releases/tag/v1.3.0)
 ### 03/04/2025
 
