@@ -252,7 +252,7 @@ function test() {
 </div>
 ```
 
-`alert`
+`alert`  
 When the Docsify v5 theme is enabled, to style Blockquotes similarly to the default Docsify-This style.  
 
 ```html
