@@ -474,7 +474,10 @@ body .docsify-pagination-container {
   #__sidebar,
   .sidebar,
   aside,
-  nav {
+  nav,
+  .pagination-item,
+  .docsify-pagination-container,
+  .pagination {
     display: none !important;
   }
 
