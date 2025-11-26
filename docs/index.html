@@ -124,7 +124,6 @@
       mergeNavbar: true,
       externalLinkTarget: standalone ? '_top' : (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
       loadFooter: (getURLParameterByName('footer') || footer || false),
-      topMargin: 10,
 
       // SIDEBAR NAVIGATION
       // -----------------------------------------------------------------
@@ -296,7 +295,8 @@
             let location = window.location;
 
             // Get topMargin from Docsify config or use default
-            let topMargin = (window.$docsify && window.$docsify.topMargin) || 0;
+            let topMargin = parseInt(getComputedStyle(document.documentElement)
+              .getPropertyValue('--scroll-padding-top')) || 0;
 
             // Build the current URL without the hash
             let currentUrlWithoutHash = new URL(
