@@ -331,8 +331,10 @@
   <!-- Table of Contents Plugin -->
   <script>
     if (getURLParameterByName('toc') || ToC) {
-      document.write('<link rel="stylesheet" type="text/css" href="assets/css/toc.css" />');
-      document.write('<script src="https://cdn.jsdelivr.net/npm/docsify-toc@1.1.0/dist/toc.min.js"><\/script>');
+      document.write('<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/paulhibbitts/docsify-toc@master/dist/toc.css" />');
+      document.write('<script src="https://cdn.jsdelivr.net/gh/paulhibbitts/docsify-toc@master/dist/toc.js"><\/script>');
+      // document.write('<link rel="stylesheet" type="text/css" href="assets/css/toc.css" />');
+      // document.write('<script src="assets/js/toc.js"><\/script>');
     }
   </script>
 
