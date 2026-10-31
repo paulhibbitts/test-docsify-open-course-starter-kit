@@ -1,13 +1,19 @@
 # Changelog
 
-## [v2.0.1](https://github.com/hibbitts-design/docsify-open-course-starter-kit/releases/tag/v2.0.1)
+## [v2.1.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit/releases/tag/v2.1.0)
 ### XX/XX/2026
+
+**New:**
+* Guide card lists: `card-list-guides` (a list of guides) and `card-list-sections` (a guide's sections) show three cards in a row, with optional `card-lines-2` or `card-lines-3` to trim card text to two or three lines
 
 **Improved:**
 * Updated Mermaid to 11.17.2 (same as the Grav Mermaid plugin), turned on with the new mermaidDiagrams setting and loaded only on pages with diagrams
 * Updated MathJax from 2 to 3.2.2 in the optional LaTeX Plugin lines, adding chemistry (\ce) and other LaTeX extras
 * Draw Mermaid diagrams in Mermaid's dark theme when the page is in dark mode (as the Grav Mermaid plugin does)
 * Load Embedly platform.js unconditionally instead of only when a card is detected in the DOM
+* A card's link button in its own paragraph now sits at the bottom of the card, lined up across the row
+* Cards in a list line up across each row (image, title, text), however long their titles are
+* Updated ReadMe
 
 ## [v2.0.0](https://github.com/hibbitts-design/docsify-open-course-starter-kit/releases/tag/v2.0.0)
 ### 07/27/2026
